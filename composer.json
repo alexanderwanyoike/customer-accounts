@@ -1,0 +1,22 @@
+{
+    "name": "alexanderwanyoike/funny-bank-customer-accounts",
+    "authors": [
+        {
+            "name": "Alexander Wanyoike",
+            "email": "wanyoike.alexander@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FunnyBank\\Core\\CustomerAccounts\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FunnyBank\\Core\\CustomerAccounts\\Tests\\": "tests"
+        }
+    }
+}
